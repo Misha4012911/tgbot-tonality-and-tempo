@@ -5,7 +5,7 @@ import math
 import aubio
 
 # Введите здесь токен своего Telegram-бота
-bot = telebot.TeleBot("6117737701:AAFAc78SiWTGjVUhojJauB5rRWnyTxrA5XM")
+bot = telebot.TeleBot("тут")
 
 @bot.message_handler(content_types=['audio'])
 def handle_audio(message):
